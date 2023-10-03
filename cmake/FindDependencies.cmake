@@ -23,9 +23,6 @@ find_package(Glog ${COLMAP_FIND_TYPE})
 
 find_package(SQLite3 ${COLMAP_FIND_TYPE})
 
-set(OpenGL_GL_PREFERENCE GLVND)
-find_package(OpenGL ${COLMAP_FIND_TYPE})
-
 find_package(Glew ${COLMAP_FIND_TYPE})
 
 find_package(Git)
